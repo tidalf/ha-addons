@@ -1,5 +1,10 @@
 # Home Assistant Add-on Hashicorp Vault
 
+[![GitHub Release](https://img.shields.io/github/v/release/tidalf/ha-addon-vault)](https://github.com/tidalf/ha-addon-vault/releases)
+[![Build status](https://img.shields.io/github/workflow/status/tidalf/ha-addon-vault/Build%20plugin/main)](https://github.com/tidalf/ha-addon-vault/actions)
+![Top language](https://img.shields.io/github/languages/top/tidalf/ha-addon-vault)
+![License](https://img.shields.io/github/license/tidalf/ha-addon-vault)
+
 ### Summary
 
 - Launch an Hashicorp vault server in raft mode. 
@@ -8,6 +13,12 @@
 ```bash
 disable_tls: true
 ```
+
+### Install
+
+Use the following repository (add it in the add-on store of the supervisor) : 
+https://github.com/tidalf/ha-addons
+
 
 ### Enable the cluster
 Cluster listener addr is set to localhost by default. 

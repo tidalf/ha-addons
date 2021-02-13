@@ -48,11 +48,11 @@
     "aws_unseal_downgrade": "bool?",
     "unsafe_downgrade": "bool?",
     "auto_provision": "bool",
-    "provision_token": "password?",
+    "provision_token_password": "password?",
     "vault_local_config": "str?",
     "aws_region": "str?",
     "aws_access_key": "str?",
-    "aws_secret_key": "password?",
+    "aws_secret_key_password": "password?",
     "aws_kms_key_id": "str?"
   },
   "arch": [
